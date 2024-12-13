@@ -115,5 +115,5 @@ MaxSales AS (
 
 SELECT ps.product_id, ps.product_name, ps.total_sold
 FROM ProductSales AS ps
-         JOIN MaxSales AS ms
-              ON ps.total_sold = ms.max_sold;
+JOIN MaxSales AS ms
+ON ps.total_sold = ms.max_sold;
